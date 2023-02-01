@@ -6,5 +6,5 @@ java_binary(
         "@maven//:org_apache_logging_log4j_log4j_core",
         "@maven//:org_apache_logging_log4j_log4j_api"
     ],
-    main_class = "ca.mcgill.ecse437.mavendeps.Main"
+    main_class = "ca.uwaterloo.cs489.mavendeps.Main"
 )
