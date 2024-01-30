@@ -11,13 +11,3 @@ http_archive(
 )
 
 load("@rules_jvm_external//:defs.bzl", "maven_install")
-
-maven_install(
-    artifacts = [
-        "org.apache.logging.log4j:log4j-core:2.12.1",
-        "org.apache.logging.log4j:log4j-api:2.12.1"
-    ],
-    repositories = [
-        "https://repo1.maven.org/maven2"
-    ]
-)
